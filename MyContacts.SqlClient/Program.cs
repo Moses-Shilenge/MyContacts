@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyContacts
+namespace MyContacts.SqlClient
 {
     class Program
     {

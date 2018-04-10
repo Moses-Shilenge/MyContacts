@@ -1,9 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyContacts", "MyContacts\MyContacts.csproj", "{7558D63C-B996-4114-8126-8BF5E48882D1}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyContacts.UI", "MyContacts.UI\", "{8BF09312-4C1D-4BF2-BA1C-E99D3D818FE8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_32438"
+		Debug.AspNetCompiler.PhysicalPath = "MyContacts.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32438\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_32438"
+		Release.AspNetCompiler.PhysicalPath = "MyContacts.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32438\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "32438"
+		SlnRelativePath = "MyContacts.UI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyContacts.Core", "MyContacts.Core\MyContacts.Core.csproj", "{C6112178-9F67-4C92-8FFC-9504199FC358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyContacts.SqlClient", "MyContacts.SqlClient\MyContacts.SqlClient.csproj", "{0FDFA38E-E609-43E6-9864-A07DE1DBEE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyContacts.API", "MyContacts.API\MyContacts.API.csproj", "{DF44801C-7D50-461C-B4F1-582D8FE4F185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +37,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7558D63C-B996-4114-8126-8BF5E48882D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7558D63C-B996-4114-8126-8BF5E48882D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7558D63C-B996-4114-8126-8BF5E48882D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7558D63C-B996-4114-8126-8BF5E48882D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF09312-4C1D-4BF2-BA1C-E99D3D818FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF09312-4C1D-4BF2-BA1C-E99D3D818FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF09312-4C1D-4BF2-BA1C-E99D3D818FE8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF09312-4C1D-4BF2-BA1C-E99D3D818FE8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C6112178-9F67-4C92-8FFC-9504199FC358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6112178-9F67-4C92-8FFC-9504199FC358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6112178-9F67-4C92-8FFC-9504199FC358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6112178-9F67-4C92-8FFC-9504199FC358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDFA38E-E609-43E6-9864-A07DE1DBEE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDFA38E-E609-43E6-9864-A07DE1DBEE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDFA38E-E609-43E6-9864-A07DE1DBEE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDFA38E-E609-43E6-9864-A07DE1DBEE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF44801C-7D50-461C-B4F1-582D8FE4F185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF44801C-7D50-461C-B4F1-582D8FE4F185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF44801C-7D50-461C-B4F1-582D8FE4F185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF44801C-7D50-461C-B4F1-582D8FE4F185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
